@@ -1,0 +1,18 @@
+h1{
+  background-color: rebeccapurple;
+  text-align: center;
+  font-style: italic;
+  
+}
+.hup{
+  background-image: image("images/bbq.jpg");
+  background-color: saddlebrown;
+  motion-path: stroke-box;
+}
+.hop{
+  background-color: salmon;
+  text-decoration: seagreen;
+  font-size: large;
+  font-weight: bolder;
+  font-style: italic;
+}
