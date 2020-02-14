@@ -1,13 +1,19 @@
 h1{
-  background-color: rebeccapurple;
+  background-color: black;
   text-align: center;
   font-style: italic;
-  
+  border-style: solid;
+  color: aliceblue;
+  padding-bottom: 4%; 
+  width: 80%; 
+  margin:auto;
+  text-decoration: underline;
+  border:blue 5px solid;
 }
 .hup{
   background-image: image("images/bbq.jpg");
   background-color: saddlebrown;
-  motion-path: stroke-box;
+  
 }
 .hop{
   background-color: salmon;
@@ -15,4 +21,105 @@ h1{
   font-size: large;
   font-weight: bolder;
   font-style: italic;
+}
+a{
+  color: black;
+}
+a:hover{
+  color: blue;
+}
+a:active{
+  color: aquamarine;
+}
+.hey h2{
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+}
+.hey ul{
+  background-color: bisque;
+  list-style: none;
+  text-align: center;
+  font-size: large;
+}
+a{
+  text-decoration: none;
+}
+a:visited{
+  color: blueviolet;
+}
+.hey li{
+  list-style-image: url('../images/bbq.png');
+}
+.dog{
+  padding: 20px;
+}
+.dog .hi{
+  padding-bottom: 15px;
+}
+.dog label{
+  display: block;
+}
+.dog input[type="text"],textarea{
+  padding:8px;
+  width: 100%;
+}
+.button{
+  background-color: black;
+  color: aliceblue;
+  padding: 10px 15px;
+  border: none;
+
+}
+.button:hover{
+  background-color: bisque;
+  color: blue;
+}
+.jk{
+  padding:10px;
+  float: left;
+  width:33%;
+  border:1px solid black;
+  box-sizing: border-box;
+  background-color: blueviolet;
+}
+.clr{
+  clear: both;
+}
+#lass{
+  float: left;
+  width: 70%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+#lassi{
+  float: left;
+  width: 28%;
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: brown;
+  color: aqua;
+  border:10px solid red;
+}
+.clr{
+  clear:both;
+}
+.box{
+  width: 800px;
+  height: 500px;
+  border: 1px solid black;
+  position: relative;
+  background-image: url('../images/bbq.jpg');
+  background-position: 100px 200px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.box h2{
+  position: absolute;
+  top: 100px;
+  left:400px;
+}
+.fix-me{
+  position: fixed;
+  top:400px;
 }
